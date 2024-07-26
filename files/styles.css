@@ -205,16 +205,15 @@
 
   /* Другие люди */
   .c-button-user {
-    min-width: -100px;
-    min-height: -100px;
     appearance: none;
     border: 0;
     background: #2c2c2c;
     color: #ffffff;
-    padding: 0.5em 43px;
+    padding: 0.5em 40px 10px 30px;
     font: 15px/1 Tahoma;
     cursor: pointer;
-    box-shadow: 0 0 0px 2px #4b4b4b;
+    box-shadow: 0 1px 0px 0px #4b4b4b;
+    margin-bottom: 1px;
   }
   .c-button-user:hover {
     background: #4b4b4b;
@@ -444,7 +443,7 @@
     transition: all 100ms ease;
     box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
     overflow-y: auto;
-    margin: 0 -3%;
+    margin: 0 -1em;
     margin-top: 1em;
     border-radius: 0px 0px 20px 20px;
   }
@@ -452,5 +451,16 @@
     opacity: 1;
   }
   .mybutt3 {
+  }
+}
+@media (max-width: 525px) {
+  .top-page {
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    box-shadow: 0.2em 0.2em 0em 0em #111111;
+    max-width: 20000em;
+    width: 110%;
+    margin-top: 1em;
+    margin-left: -1em;
   }
 }
