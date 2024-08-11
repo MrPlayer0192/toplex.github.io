@@ -1,0 +1,230 @@
+@media (max-width: 10000000px) {
+  /*# Шрифт текста */
+
+  /*# Текст слева */
+  .text-left {
+    text-align: left;
+  }
+
+  /*# Центральный текст */
+  .text-center {
+    text-align: center;
+  }
+
+  /*# Текст справа */
+  .text-right {
+    text-align: right;
+  }
+
+  /*# Жирный текст */
+  strong,
+  .strong {
+    font-weight: bolder;
+  }
+
+  /*# Обычное состояние кнопки */
+  .c-button {
+    min-width: 10em;
+    font-family: fantasy;
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #5d5d5dad;
+    color: #ffffff;
+    padding: 1em 1em;
+    font-size: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-bottom: -16em;
+  }
+
+  /*# Наведённое состояние кнопки */
+  .c-button:hover {
+    background: #525252ad;
+  }
+
+  /*# Нажатое состояние кнопки */
+  .c-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffffffad;
+  }
+
+  /**/
+  div {
+    margin: 0.5em;
+  }
+
+  .font {
+    min-width: 5px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    appearance: none;
+    border: 0;
+    border-radius: 100px;
+    background: rgba(47, 47, 47, 0.932);
+    color: #ffffff;
+    padding: 9px 16px;
+    font-size: 20px;
+    text-align: center;
+    cursor: context-menu;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .font1 {
+    min-width: 100px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    appearance: none;
+    border: 0;
+    border-radius: 2px;
+    background: #3c3c3c;
+    color: #ffffff;
+    padding: 30px 16px;
+    font-size: 15px;
+    text-align: left;
+    cursor: context-menu;
+    margin-left: 2rem;
+    margin-right: 40%;
+    margin-top: -1.35em;
+  }
+
+  .font2 {
+    min-width: 5px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    appearance: none;
+    border: 0;
+    border-radius: 0em;
+    background: rgba(47, 47, 47, 0.932);
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    text-align: left;
+    cursor: context-menu;
+    margin-top: -0cm;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .glav {
+    min-width: 100px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    appearance: none;
+    border: 0;
+    border-radius: 100px;
+    background: #a3a3a3;
+    color: #ffffff;
+    padding: 10px 1px;
+    font-size: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    cursor: context-menu;
+    margin: 0.1em;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    background-color: rgb(30, 30, 30);
+  }
+
+  .class {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 2px;
+    background: #b7b7b7d3;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    cursor: context-menu;
+  }
+
+  .rol-x {
+    /* Включаем отображение полос прокрутки по горизонтали
+  и по вертикали */
+    overflow-x: auto;
+  }
+
+  .rol-y {
+    height: 20em;
+    /* Включаем отображение полос прокрутки по горизонтали
+  и по вертикали */
+    overflow-y: auto;
+  }
+
+  h1 {
+    width: auto;
+  }
+  h2 {
+    width: auto;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    width: auto;
+    margin-top: -10px;
+  }
+
+  .page-menu {
+    background-color: rgb(39, 39, 39);
+    margin-left: 60em;
+    margin-bottom: -15em;
+    border: 1px;
+    box-shadow: 0 0 0 3px #121212ad;
+    border-radius: 10px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+
+  .c-button1 {
+    font-family: cursive;
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #7a7a7a00;
+    color: #fcffde;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    font: optional;
+    width: 10em;
+  }
+
+  /*# Наведённое состояние кнопки */
+  .c-button1:hover {
+    background: #52525226;
+  }
+
+  /*# Нажатое состояние кнопки */
+  .c-button1:focus {
+    outline: none;
+  }
+}
+@media (max-width: 1920px) {
+}
+@media (max-width: 1000px) {
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 768px) {
+}
+
+.top-page {
+  text-align: center;
+  background-color: rgb(44, 44, 44);
+  margin-left: 10%;
+  box-shadow: 0.2em 0.2em 0em 0em #111111;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 0px;
+  margin-top: 1em;
+  min-height: 4em;
+}
