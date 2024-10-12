@@ -1,0 +1,271 @@
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    height: 900px;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.block-link {
+    width: 30%;
+}
+
+.line-3 {
+    width: 1px;
+    height: 50px;
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0 0 0 0 rgb(211, 211, 211);
+}
+
+.box-link {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    transition: all 0.1s ease;
+}
+
+a:hover {
+    color: rgb(143, 211, 143);
+    font-size: 24px;
+    text-decoration:underline;
+    transition: all 0.1s ease;
+}
+
+.info-box {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+.block-main {
+    background-color: rgba(100, 100, 100, 0.103);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.384);
+    color: rgb(207, 207, 207);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 720px;
+    height: 500px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+/* Шрифт "писемство" */
+.txt-1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Пиксельный текст */
+.pixel-txt {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.line-1 {
+    margin-top: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(70, 70, 70);
+}
+
+.line-2 {
+    margin-top: 10px;
+    width: 70%;
+    margin-right: auto;
+    height: 1px;
+    background-color: rgb(116, 116, 116);
+}
+
+@media (max-width: 10000000000px) {
+    h-auto {
+        font-size: 20px;
+        color: rgb(224, 224, 224);
+        background-color: rgb(97, 97, 97);
+        box-shadow: 0 0 10px 10px rgb(97, 97, 97);
+    }
+
+    .container {
+        display: flex;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-top: 1px;
+        text-align: center;
+        min-width: 500px;
+        transition: all 0.05s ease;
+    }
+    .link-box {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+        text-align: left;
+        background-color: rgba(173, 50, 50, 0);
+    }
+    .hz-top {
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        height: 50px;
+        background-color: rgba(214, 214, 214, 0.103);
+        box-shadow: 0 0 0 1px rgb(211, 211, 211);
+        color: rgb(207, 207, 207);
+    }
+    .logo-hz {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0;
+        margin-top: 9px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .logo {
+        margin-left: 5px;
+        margin-right: 10px;
+        height: 30px;
+        cursor: pointer;
+        transition: all 0.1s ease;
+    }
+    .logo:hover {
+        opacity: 0.7;
+        transition: all 0.1s ease;
+    }
+    .logo:active {
+        opacity: 0.5;
+        transition: all 0.1s ease;
+    }
+    .logo-1 {
+        margin-top: 11px;
+        height: 30px;
+        cursor: pointer;
+        transition: all 0.1s ease;
+    }
+    .logo-1:hover {
+        opacity: 0.7;
+        transition: all 0.1s ease;
+    }
+    .logo-1:active {
+        opacity: 0.5;
+        transition: all 0.1s ease;
+    }
+}
+@media (max-width: 800px) {
+    .link-box {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 10px;
+        text-align: left;
+        background-color: rgba(173, 50, 50, 0);
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        display: flex;
+        margin-left: 1px;
+        margin-right: 1%;
+        text-align: center;
+        transition: all 0.05s ease;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+        margin-left: -10px;
+        margin-right: -2px;
+        text-align: center;
+        transition: all 0.05s ease;
+    }
+}
+.top-top {
+    margin-top: 10px;
+}
+
+.who-is {
+    margin-top: 0px;
+    color: rgb(224, 224, 224);
+    background-color: rgb(97, 97, 97);
+    box-shadow: 0 0 10px 10px rgb(97, 97, 97);
+    width: 80px;
+    margin-left: 50%;
+}
+
+  .tabs {
+    list-style: none;
+  }
+  
+  .tab {
+    cursor: pointer;
+    list-style: none;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    transition: all 0.1s ease;
+  }
+
+  .tab:hover {
+    color: rgb(226, 226, 226);
+    font-size: 21px;
+    margin-left: -3px;
+  }
+  
+  .tab.active {
+    cursor: default;
+    color: rgb(153, 153, 153);
+    margin-left: 5px;
+    font-size: 15px;
+    transition: all 0.1s ease;
+  }
+  
+  .tab-pane {
+    display: none;
+    min-height: 500px;
+  }
+  
+  .tab-pane.active {
+    display: block;
+  }
+
+  .text-hz-base {
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: -0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+
