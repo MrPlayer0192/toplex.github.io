@@ -123,29 +123,6 @@
             </div>
           </ul>
         </div>
-        <p>
-          Это текст, который можно скопировать.
-        </p>
-        <button onclick="copySelectedText()">Скопировать выделенное</button>
-        <script>
-          const searchInput = document.getElementById("searchInput");
-          const searchResults = document.getElementById("searchResults");
-        
-          searchInput.addEventListener("keyup", () => {
-            const searchTerm = searchInput.value.toLowerCase();
-        
-            const listItems = searchResults.querySelectorAll("src");
-        
-            listItems.forEach(item => {
-              const text = item.textContent.toLowerCase();
-              if (text.includes(searchTerm)) {
-                item.style.display = "";
-              } else {
-                item.style.display = "none";
-              }
-            });
-          });
-        </script>
         <body>
       </div>
     </div>
