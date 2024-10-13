@@ -119,17 +119,13 @@ a:hover {
         transition: all 0.05s ease;
     }
     .link-box {
-        width: 100%;
-        height: 100px;
         margin-bottom: 10px;
         text-align: left;
         background-color: rgba(173, 50, 50, 0);
     }
     .hz-top {
         display: flex;
-        margin-top: 0px;
-        margin-bottom: 10px;
-        height: 50px;
+        min-height: 50px;
         background-color: rgba(214, 214, 214, 0.103);
         box-shadow: 0 0 0 1px rgb(211, 211, 211);
         color: rgb(207, 207, 207);
@@ -137,14 +133,14 @@ a:hover {
     .logo-hz {
         display: flex;
         background-color: rgba(0, 0, 0, 0);
+        height: 30px;
+        margin-left: 10px;
         border: 0;
-        margin-top: 9px;
-        margin-left: 5px;
-        margin-right: 5px;
     }
     .logo {
         margin-left: 5px;
         margin-right: 10px;
+        margin-top: 10px;
         height: 30px;
         cursor: pointer;
         transition: all 0.1s ease;
@@ -253,12 +249,19 @@ a:hover {
     display: block;
   }
 
+  .image-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  }
+
   .text-hz-base {
     color: rgb(206, 206, 206);
-    font-size: 20px;
-    margin-left: 5px;
-    margin-top: -0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   h1, h2 {
@@ -268,4 +271,3 @@ a:hover {
   .content {
     margin-top: 20px;
   }
-

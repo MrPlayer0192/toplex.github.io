@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+}
+
+.imageError {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgb(145, 144, 144);
+}
+
+div {
+    color: rgb(241, 241, 241);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.upTitle {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: "Arsenal SC";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-left {
+    text-align: left;
+    max-width: 250px;
+}
