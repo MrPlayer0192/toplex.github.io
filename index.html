@@ -13,8 +13,11 @@
   <style>
     @media (max-width: 10000px) {
       hs {
-      margin-left: 20px;
-      max-width: 300px;
+      margin-left: -130px;
+      margin-right: 20px;
+      margin-top: 135px;
+      margin-bottom: 5px;
+      max-width: 110px;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -55,8 +58,6 @@
     }
     @media (max-width: 700px) {
       hs {
-      margin-left: 5px;
-      max-width: 200px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       transition: all 0.1s ease;
     }
@@ -68,9 +69,12 @@
     }
     @media (max-width: 500px) {
       hs {
-      max-width: 110px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       transition: all 0.1s ease;
+      margin-left: -115px;
+      margin-right: 10px;
+      margin-top: 110px;
+      max-width: 110px;
     }
       .name-base {
       max-width: 170px;
@@ -92,34 +96,46 @@
 <body class="body1">
   <div class="amatic-sc-regular">Пользователи</div>
   <main>
+
+
     <div class="background-main">
       <div class="background-main-box">
+
+
           <input type="text" id="searchInput" placeholder="Поиск пользователя" class="input-main no-outline">
         
+
           <ul id="searchResults">
             <div class="boxSearchResults">
+
+              
               <src class="boxSearchResultsCenter">
                 <img src="code/image/Mr_Player0192.jpg" alt="" class="square-image">
+                <hs>#Toplex #Топлекс #Мр #Игрок #Даня #Даниил #Гений #Майнкрафт #Minecraft #Геймер
+                </hs>
                 <div class="text-base">
                   <div id="display-flex"><div class="name-base">Mr_Player0192</div>
-                  <hs>#Toplex #Топлекс #Мр #Игрок #Даня #Даниил #Гений #Майнкрафт #Minecraft #Геймер
-                  </hs>
                 </div>
                   <div class="basic-base">Парень, который слишком любит играть в компьютерную игру под названием "Minecraft"</div>
-                  <a href="Mr_Player0192.html"><button class="button-base">Посмотреть</button></a>
+                  <a href="Mr_Player0192.html"><button class="button-base" onclick="message()">Посмотреть</button></a>
                 </div>
               </src>
+
+
               <src class="boxSearchResultsCenter">
                 <img src="code/image/ml-son-golubyashy.jpg" alt="" class="square-image">
+                <hs>fksjhgjrshgjksrkjgsrkjgjksdgkjsr
+                </hs>
                 <div class="text-base">
                   <div id="display-flex"><div class="name-base">[💙🐾] Мл. сын голубяши</div>
-                  <hs>fksjhgjrshgjksrkjgsrkjgjksdgkjsr
-                  </hs>
                 </div>
                   <div class="basic-base"></div>
-                  <button class="button-base">Посмотреть</button>
+                  <a href="#"><button class="button-base" onclick="message()">Посмотреть</button></a>
+                  <a href="sait.html" target="_blank"><button id="snackbar">Ошибка перехода.</button></a>
                 </div>
               </src>
+
+
             </div>
           </ul>
         </div>
